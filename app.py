@@ -28,17 +28,17 @@ client1.on_message = on_message
 
 
 
-st.title("INTERFACES MULTIMODALES")
-st.subheader("CONTROL POR VOZ")
+st.title("Sistemas Multimodales")
+st.subheader("Comandos de Voz")
 
-image = Image.open('voice_ctrl.jpg')
+image = Image.open('Seraphine.png')
 
 st.image(image, width=200)
 
 
 
 
-st.write("Toca el Botón y habla ")
+st.write("¡Toca aquí y dime algo! ")
 
 stt_button = Button(label=" Inicio ", width=200)
 
